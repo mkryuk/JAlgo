@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Jalgo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Jalgo_jar</output-path>
+    <root id="archive" name="Jalgo.jar">
+      <element id="module-output" name="Jalgo" />
+    </root>
+  </artifact>
+</component>
