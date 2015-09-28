@@ -4,20 +4,14 @@ package com.example.jalgo;
  */
 
 public class Main {
+
     public static void main(String[] args) {
-        WeightedQuickUnion quickFind = new WeightedQuickUnion(10);
 
-        quickFind.union(2,7);
-        quickFind.union(8,1);
-        quickFind.union(8,2);
-        quickFind.union(5,9);
-        quickFind.union(5,4);
-        quickFind.union(5,0);
-        quickFind.union(5,3);
-        quickFind.union(5,6);
-        quickFind.union(8,5);
+        Integer [] array = new Integer[]{59, 23, 39, 28, 25, 49, 31, 59, 59, 15};
+        Quick3WaySort.sort(array);
+        for(Integer item : array){
+            System.out.print(item + " ");
+        }
 
-
-        quickFind.printArr();
     }
 }
